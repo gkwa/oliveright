@@ -53,8 +53,8 @@ func init() {
 	rootCmd.PersistentFlags().BoolVarP(&verbose, "verbose", "v", false, "enable verbose mode")
 	viper.BindPFlag("verbose", rootCmd.PersistentFlags().Lookup("verbose"))
 
-	rootCmd.Flags().StringVar(&logFormat, "log-format", "", "json or text (default is text)")
-	viper.BindPFlag("log-format", rootCmd.Flags().Lookup("log-format"))
+	rootCmd.PersistentFlags().StringVar(&logFormat, "log-format", "", "json or text (default is text)")
+	viper.BindPFlag("log-format", rootCmd.PersistentFlags().Lookup("log-format"))
 }
 
 // initConfig reads in config file and ENV variables if set.
