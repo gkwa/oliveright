@@ -4,7 +4,7 @@ go 1.21.4
 
 require (
 	github.com/aws/aws-sdk-go-v2/config v1.28.5
-	github.com/aws/aws-sdk-go-v2/service/s3 v1.68.0
+	github.com/aws/aws-sdk-go-v2/service/s3 v1.69.0
 	github.com/aws/aws-sdk-go-v2/service/transcribe v1.41.6
 	github.com/neurosnap/sentences v1.1.2
 	github.com/spf13/cobra v1.8.1
