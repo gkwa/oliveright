@@ -2,7 +2,7 @@ module github.com/taylormonacelli/oliveright
 
 go 1.23.0
 
-toolchain go1.25.7
+toolchain go1.26.0
 
 require (
 	github.com/aws/aws-sdk-go-v2/config v1.32.7
