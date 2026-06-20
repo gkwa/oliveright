@@ -6,7 +6,7 @@ toolchain go1.26.4
 
 require (
 	github.com/aws/aws-sdk-go-v2/config v1.32.25
-	github.com/aws/aws-sdk-go-v2/service/s3 v1.103.3
+	github.com/aws/aws-sdk-go-v2/service/s3 v1.104.0
 	github.com/aws/aws-sdk-go-v2/service/transcribe v1.56.3
 	github.com/neurosnap/sentences v1.1.2
 	github.com/spf13/cobra v1.10.2
